@@ -1,0 +1,1990 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "county_guid": {
+          "type": "string"
+        },
+        "medicalfacility_guid": {
+          "type": "string"
+        },
+        "datetime": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "timestamp": {
+                  "type": "null"
+                },
+                "diseasename": {
+                  "type": "null"
+                },
+                "diseasetype": {
+                  "type": "null"
+                },
+                "infectiondata": {
+                  "type": "object",
+                  "properties": {
+                    "0-9yrs": {
+                      "type": "object",
+                      "properties": {
+                        "male_activecases": {
+                          "type": "null"
+                        },
+                        "male_ttldeaths": {
+                          "type": "null"
+                        },
+                        "male_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "male_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "male_ttlcritical": {
+                          "type": "null"
+                        },
+                        "male_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "female_activecases": {
+                          "type": "null"
+                        },
+                        "female_ttldeaths": {
+                          "type": "null"
+                        },
+                        "female_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "female_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "female_ttlcritical": {
+                          "type": "null"
+                        },
+                        "female_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "other_activecases": {
+                          "type": "null"
+                        },
+                        "other_ttldeaths": {
+                          "type": "null"
+                        },
+                        "other_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "other_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "other_ttlcritical": {
+                          "type": "null"
+                        },
+                        "other_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "o_blood_activecases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "a_blood_activecases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "b_blood_activecases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "ab_blood_activecases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlresurgent": {
+                          "type": "null"
+                        }
+                      },
+                      "required": [
+                        "male_activecases",
+                        "male_ttldeaths",
+                        "male_ttlnewcases",
+                        "male_ttlrecovered",
+                        "male_ttlcritical",
+                        "male_ttlresurgent",
+                        "female_activecases",
+                        "female_ttldeaths",
+                        "female_ttlnewcases",
+                        "female_ttlrecovered",
+                        "female_ttlcritical",
+                        "female_ttlresurgent",
+                        "other_activecases",
+                        "other_ttldeaths",
+                        "other_ttlnewcases",
+                        "other_ttlrecovered",
+                        "other_ttlcritical",
+                        "other_ttlresurgent",
+                        "o_blood_activecases",
+                        "o_blood_ttldeaths",
+                        "o_blood_ttlnewcases",
+                        "o_blood_ttlrecovered",
+                        "o_blood_ttlcritical",
+                        "o_blood_ttlresurgent",
+                        "a_blood_activecases",
+                        "a_blood_ttldeaths",
+                        "a_blood_ttlnewcases",
+                        "a_blood_ttlrecovered",
+                        "a_blood_ttlcritical",
+                        "a_blood_ttlresurgent",
+                        "b_blood_activecases",
+                        "b_blood_ttldeaths",
+                        "b_blood_ttlnewcases",
+                        "b_blood_ttlrecovered",
+                        "b_blood_ttlcritical",
+                        "b_blood_ttlresurgent",
+                        "ab_blood_activecases",
+                        "ab_blood_ttldeaths",
+                        "ab_blood_ttlnewcases",
+                        "ab_blood_ttlrecovered",
+                        "ab_blood_ttlcritical",
+                        "ab_blood_ttlresurgent"
+                      ]
+                    },
+                    "10-19yrs": {
+                      "type": "object",
+                      "properties": {
+                        "male_activecases": {
+                          "type": "null"
+                        },
+                        "male_ttldeaths": {
+                          "type": "null"
+                        },
+                        "male_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "male_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "male_ttlcritical": {
+                          "type": "null"
+                        },
+                        "male_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "female_activecases": {
+                          "type": "null"
+                        },
+                        "female_ttldeaths": {
+                          "type": "null"
+                        },
+                        "female_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "female_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "female_ttlcritical": {
+                          "type": "null"
+                        },
+                        "female_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "other_activecases": {
+                          "type": "null"
+                        },
+                        "other_ttldeaths": {
+                          "type": "null"
+                        },
+                        "other_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "other_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "other_ttlcritical": {
+                          "type": "null"
+                        },
+                        "other_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "o_blood_activecases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "a_blood_activecases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "b_blood_activecases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "ab_blood_activecases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlresurgent": {
+                          "type": "null"
+                        }
+                      },
+                      "required": [
+                        "male_activecases",
+                        "male_ttldeaths",
+                        "male_ttlnewcases",
+                        "male_ttlrecovered",
+                        "male_ttlcritical",
+                        "male_ttlresurgent",
+                        "female_activecases",
+                        "female_ttldeaths",
+                        "female_ttlnewcases",
+                        "female_ttlrecovered",
+                        "female_ttlcritical",
+                        "female_ttlresurgent",
+                        "other_activecases",
+                        "other_ttldeaths",
+                        "other_ttlnewcases",
+                        "other_ttlrecovered",
+                        "other_ttlcritical",
+                        "other_ttlresurgent",
+                        "o_blood_activecases",
+                        "o_blood_ttldeaths",
+                        "o_blood_ttlnewcases",
+                        "o_blood_ttlrecovered",
+                        "o_blood_ttlcritical",
+                        "o_blood_ttlresurgent",
+                        "a_blood_activecases",
+                        "a_blood_ttldeaths",
+                        "a_blood_ttlnewcases",
+                        "a_blood_ttlrecovered",
+                        "a_blood_ttlcritical",
+                        "a_blood_ttlresurgent",
+                        "b_blood_activecases",
+                        "b_blood_ttldeaths",
+                        "b_blood_ttlnewcases",
+                        "b_blood_ttlrecovered",
+                        "b_blood_ttlcritical",
+                        "b_blood_ttlresurgent",
+                        "ab_blood_activecases",
+                        "ab_blood_ttldeaths",
+                        "ab_blood_ttlnewcases",
+                        "ab_blood_ttlrecovered",
+                        "ab_blood_ttlcritical",
+                        "ab_blood_ttlresurgent"
+                      ]
+                    },
+                    "20-29yrs": {
+                      "type": "object",
+                      "properties": {
+                        "male_activecases": {
+                          "type": "null"
+                        },
+                        "male_ttldeaths": {
+                          "type": "null"
+                        },
+                        "male_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "male_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "male_ttlcritical": {
+                          "type": "null"
+                        },
+                        "male_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "female_activecases": {
+                          "type": "null"
+                        },
+                        "female_ttldeaths": {
+                          "type": "null"
+                        },
+                        "female_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "female_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "female_ttlcritical": {
+                          "type": "null"
+                        },
+                        "female_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "other_activecases": {
+                          "type": "null"
+                        },
+                        "other_ttldeaths": {
+                          "type": "null"
+                        },
+                        "other_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "other_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "other_ttlcritical": {
+                          "type": "null"
+                        },
+                        "other_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "o_blood_activecases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "a_blood_activecases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "b_blood_activecases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "ab_blood_activecases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlresurgent": {
+                          "type": "null"
+                        }
+                      },
+                      "required": [
+                        "male_activecases",
+                        "male_ttldeaths",
+                        "male_ttlnewcases",
+                        "male_ttlrecovered",
+                        "male_ttlcritical",
+                        "male_ttlresurgent",
+                        "female_activecases",
+                        "female_ttldeaths",
+                        "female_ttlnewcases",
+                        "female_ttlrecovered",
+                        "female_ttlcritical",
+                        "female_ttlresurgent",
+                        "other_activecases",
+                        "other_ttldeaths",
+                        "other_ttlnewcases",
+                        "other_ttlrecovered",
+                        "other_ttlcritical",
+                        "other_ttlresurgent",
+                        "o_blood_activecases",
+                        "o_blood_ttldeaths",
+                        "o_blood_ttlnewcases",
+                        "o_blood_ttlrecovered",
+                        "o_blood_ttlcritical",
+                        "o_blood_ttlresurgent",
+                        "a_blood_activecases",
+                        "a_blood_ttldeaths",
+                        "a_blood_ttlnewcases",
+                        "a_blood_ttlrecovered",
+                        "a_blood_ttlcritical",
+                        "a_blood_ttlresurgent",
+                        "b_blood_activecases",
+                        "b_blood_ttldeaths",
+                        "b_blood_ttlnewcases",
+                        "b_blood_ttlrecovered",
+                        "b_blood_ttlcritical",
+                        "b_blood_ttlresurgent",
+                        "ab_blood_activecases",
+                        "ab_blood_ttldeaths",
+                        "ab_blood_ttlnewcases",
+                        "ab_blood_ttlrecovered",
+                        "ab_blood_ttlcritical",
+                        "ab_blood_ttlresurgent"
+                      ]
+                    },
+                    "30-39yrs": {
+                      "type": "object",
+                      "properties": {
+                        "male_activecases": {
+                          "type": "null"
+                        },
+                        "male_ttldeaths": {
+                          "type": "null"
+                        },
+                        "male_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "male_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "male_ttlcritical": {
+                          "type": "null"
+                        },
+                        "male_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "female_activecases": {
+                          "type": "null"
+                        },
+                        "female_ttldeaths": {
+                          "type": "null"
+                        },
+                        "female_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "female_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "female_ttlcritical": {
+                          "type": "null"
+                        },
+                        "female_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "other_activecases": {
+                          "type": "null"
+                        },
+                        "other_ttldeaths": {
+                          "type": "null"
+                        },
+                        "other_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "other_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "other_ttlcritical": {
+                          "type": "null"
+                        },
+                        "other_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "o_blood_activecases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "a_blood_activecases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "b_blood_activecases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "ab_blood_activecases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlresurgent": {
+                          "type": "null"
+                        }
+                      },
+                      "required": [
+                        "male_activecases",
+                        "male_ttldeaths",
+                        "male_ttlnewcases",
+                        "male_ttlrecovered",
+                        "male_ttlcritical",
+                        "male_ttlresurgent",
+                        "female_activecases",
+                        "female_ttldeaths",
+                        "female_ttlnewcases",
+                        "female_ttlrecovered",
+                        "female_ttlcritical",
+                        "female_ttlresurgent",
+                        "other_activecases",
+                        "other_ttldeaths",
+                        "other_ttlnewcases",
+                        "other_ttlrecovered",
+                        "other_ttlcritical",
+                        "other_ttlresurgent",
+                        "o_blood_activecases",
+                        "o_blood_ttldeaths",
+                        "o_blood_ttlnewcases",
+                        "o_blood_ttlrecovered",
+                        "o_blood_ttlcritical",
+                        "o_blood_ttlresurgent",
+                        "a_blood_activecases",
+                        "a_blood_ttldeaths",
+                        "a_blood_ttlnewcases",
+                        "a_blood_ttlrecovered",
+                        "a_blood_ttlcritical",
+                        "a_blood_ttlresurgent",
+                        "b_blood_activecases",
+                        "b_blood_ttldeaths",
+                        "b_blood_ttlnewcases",
+                        "b_blood_ttlrecovered",
+                        "b_blood_ttlcritical",
+                        "b_blood_ttlresurgent",
+                        "ab_blood_activecases",
+                        "ab_blood_ttldeaths",
+                        "ab_blood_ttlnewcases",
+                        "ab_blood_ttlrecovered",
+                        "ab_blood_ttlcritical",
+                        "ab_blood_ttlresurgent"
+                      ]
+                    },
+                    "40-49yrs": {
+                      "type": "object",
+                      "properties": {
+                        "male_activecases": {
+                          "type": "null"
+                        },
+                        "male_ttldeaths": {
+                          "type": "null"
+                        },
+                        "male_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "male_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "male_ttlcritical": {
+                          "type": "null"
+                        },
+                        "male_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "female_activecases": {
+                          "type": "null"
+                        },
+                        "female_ttldeaths": {
+                          "type": "null"
+                        },
+                        "female_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "female_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "female_ttlcritical": {
+                          "type": "null"
+                        },
+                        "female_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "other_activecases": {
+                          "type": "null"
+                        },
+                        "other_ttldeaths": {
+                          "type": "null"
+                        },
+                        "other_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "other_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "other_ttlcritical": {
+                          "type": "null"
+                        },
+                        "other_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "o_blood_activecases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "a_blood_activecases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "b_blood_activecases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "ab_blood_activecases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlresurgent": {
+                          "type": "null"
+                        }
+                      },
+                      "required": [
+                        "male_activecases",
+                        "male_ttldeaths",
+                        "male_ttlnewcases",
+                        "male_ttlrecovered",
+                        "male_ttlcritical",
+                        "male_ttlresurgent",
+                        "female_activecases",
+                        "female_ttldeaths",
+                        "female_ttlnewcases",
+                        "female_ttlrecovered",
+                        "female_ttlcritical",
+                        "female_ttlresurgent",
+                        "other_activecases",
+                        "other_ttldeaths",
+                        "other_ttlnewcases",
+                        "other_ttlrecovered",
+                        "other_ttlcritical",
+                        "other_ttlresurgent",
+                        "o_blood_activecases",
+                        "o_blood_ttldeaths",
+                        "o_blood_ttlnewcases",
+                        "o_blood_ttlrecovered",
+                        "o_blood_ttlcritical",
+                        "o_blood_ttlresurgent",
+                        "a_blood_activecases",
+                        "a_blood_ttldeaths",
+                        "a_blood_ttlnewcases",
+                        "a_blood_ttlrecovered",
+                        "a_blood_ttlcritical",
+                        "a_blood_ttlresurgent",
+                        "b_blood_activecases",
+                        "b_blood_ttldeaths",
+                        "b_blood_ttlnewcases",
+                        "b_blood_ttlrecovered",
+                        "b_blood_ttlcritical",
+                        "b_blood_ttlresurgent",
+                        "ab_blood_activecases",
+                        "ab_blood_ttldeaths",
+                        "ab_blood_ttlnewcases",
+                        "ab_blood_ttlrecovered",
+                        "ab_blood_ttlcritical",
+                        "ab_blood_ttlresurgent"
+                      ]
+                    },
+                    "50-59yrs": {
+                      "type": "object",
+                      "properties": {
+                        "male_activecases": {
+                          "type": "null"
+                        },
+                        "male_ttldeaths": {
+                          "type": "null"
+                        },
+                        "male_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "male_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "male_ttlcritical": {
+                          "type": "null"
+                        },
+                        "male_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "female_activecases": {
+                          "type": "null"
+                        },
+                        "female_ttldeaths": {
+                          "type": "null"
+                        },
+                        "female_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "female_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "female_ttlcritical": {
+                          "type": "null"
+                        },
+                        "female_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "other_activecases": {
+                          "type": "null"
+                        },
+                        "other_ttldeaths": {
+                          "type": "null"
+                        },
+                        "other_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "other_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "other_ttlcritical": {
+                          "type": "null"
+                        },
+                        "other_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "o_blood_activecases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "a_blood_activecases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "b_blood_activecases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "ab_blood_activecases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlresurgent": {
+                          "type": "null"
+                        }
+                      },
+                      "required": [
+                        "male_activecases",
+                        "male_ttldeaths",
+                        "male_ttlnewcases",
+                        "male_ttlrecovered",
+                        "male_ttlcritical",
+                        "male_ttlresurgent",
+                        "female_activecases",
+                        "female_ttldeaths",
+                        "female_ttlnewcases",
+                        "female_ttlrecovered",
+                        "female_ttlcritical",
+                        "female_ttlresurgent",
+                        "other_activecases",
+                        "other_ttldeaths",
+                        "other_ttlnewcases",
+                        "other_ttlrecovered",
+                        "other_ttlcritical",
+                        "other_ttlresurgent",
+                        "o_blood_activecases",
+                        "o_blood_ttldeaths",
+                        "o_blood_ttlnewcases",
+                        "o_blood_ttlrecovered",
+                        "o_blood_ttlcritical",
+                        "o_blood_ttlresurgent",
+                        "a_blood_activecases",
+                        "a_blood_ttldeaths",
+                        "a_blood_ttlnewcases",
+                        "a_blood_ttlrecovered",
+                        "a_blood_ttlcritical",
+                        "a_blood_ttlresurgent",
+                        "b_blood_activecases",
+                        "b_blood_ttldeaths",
+                        "b_blood_ttlnewcases",
+                        "b_blood_ttlrecovered",
+                        "b_blood_ttlcritical",
+                        "b_blood_ttlresurgent",
+                        "ab_blood_activecases",
+                        "ab_blood_ttldeaths",
+                        "ab_blood_ttlnewcases",
+                        "ab_blood_ttlrecovered",
+                        "ab_blood_ttlcritical",
+                        "ab_blood_ttlresurgent"
+                      ]
+                    },
+                    "60-69yrs": {
+                      "type": "object",
+                      "properties": {
+                        "male_activecases": {
+                          "type": "null"
+                        },
+                        "male_ttldeaths": {
+                          "type": "null"
+                        },
+                        "male_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "male_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "male_ttlcritical": {
+                          "type": "null"
+                        },
+                        "male_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "female_activecases": {
+                          "type": "null"
+                        },
+                        "female_ttldeaths": {
+                          "type": "null"
+                        },
+                        "female_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "female_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "female_ttlcritical": {
+                          "type": "null"
+                        },
+                        "female_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "other_activecases": {
+                          "type": "null"
+                        },
+                        "other_ttldeaths": {
+                          "type": "null"
+                        },
+                        "other_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "other_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "other_ttlcritical": {
+                          "type": "null"
+                        },
+                        "other_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "o_blood_activecases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "a_blood_activecases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "b_blood_activecases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "ab_blood_activecases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlresurgent": {
+                          "type": "null"
+                        }
+                      },
+                      "required": [
+                        "male_activecases",
+                        "male_ttldeaths",
+                        "male_ttlnewcases",
+                        "male_ttlrecovered",
+                        "male_ttlcritical",
+                        "male_ttlresurgent",
+                        "female_activecases",
+                        "female_ttldeaths",
+                        "female_ttlnewcases",
+                        "female_ttlrecovered",
+                        "female_ttlcritical",
+                        "female_ttlresurgent",
+                        "other_activecases",
+                        "other_ttldeaths",
+                        "other_ttlnewcases",
+                        "other_ttlrecovered",
+                        "other_ttlcritical",
+                        "other_ttlresurgent",
+                        "o_blood_activecases",
+                        "o_blood_ttldeaths",
+                        "o_blood_ttlnewcases",
+                        "o_blood_ttlrecovered",
+                        "o_blood_ttlcritical",
+                        "o_blood_ttlresurgent",
+                        "a_blood_activecases",
+                        "a_blood_ttldeaths",
+                        "a_blood_ttlnewcases",
+                        "a_blood_ttlrecovered",
+                        "a_blood_ttlcritical",
+                        "a_blood_ttlresurgent",
+                        "b_blood_activecases",
+                        "b_blood_ttldeaths",
+                        "b_blood_ttlnewcases",
+                        "b_blood_ttlrecovered",
+                        "b_blood_ttlcritical",
+                        "b_blood_ttlresurgent",
+                        "ab_blood_activecases",
+                        "ab_blood_ttldeaths",
+                        "ab_blood_ttlnewcases",
+                        "ab_blood_ttlrecovered",
+                        "ab_blood_ttlcritical",
+                        "ab_blood_ttlresurgent"
+                      ]
+                    },
+                    "70-79yrs": {
+                      "type": "object",
+                      "properties": {
+                        "male_activecases": {
+                          "type": "null"
+                        },
+                        "male_ttldeaths": {
+                          "type": "null"
+                        },
+                        "male_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "male_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "male_ttlcritical": {
+                          "type": "null"
+                        },
+                        "male_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "female_activecases": {
+                          "type": "null"
+                        },
+                        "female_ttldeaths": {
+                          "type": "null"
+                        },
+                        "female_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "female_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "female_ttlcritical": {
+                          "type": "null"
+                        },
+                        "female_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "other_activecases": {
+                          "type": "null"
+                        },
+                        "other_ttldeaths": {
+                          "type": "null"
+                        },
+                        "other_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "other_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "other_ttlcritical": {
+                          "type": "null"
+                        },
+                        "other_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "o_blood_activecases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "a_blood_activecases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "b_blood_activecases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "ab_blood_activecases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlresurgent": {
+                          "type": "null"
+                        }
+                      },
+                      "required": [
+                        "male_activecases",
+                        "male_ttldeaths",
+                        "male_ttlnewcases",
+                        "male_ttlrecovered",
+                        "male_ttlcritical",
+                        "male_ttlresurgent",
+                        "female_activecases",
+                        "female_ttldeaths",
+                        "female_ttlnewcases",
+                        "female_ttlrecovered",
+                        "female_ttlcritical",
+                        "female_ttlresurgent",
+                        "other_activecases",
+                        "other_ttldeaths",
+                        "other_ttlnewcases",
+                        "other_ttlrecovered",
+                        "other_ttlcritical",
+                        "other_ttlresurgent",
+                        "o_blood_activecases",
+                        "o_blood_ttldeaths",
+                        "o_blood_ttlnewcases",
+                        "o_blood_ttlrecovered",
+                        "o_blood_ttlcritical",
+                        "o_blood_ttlresurgent",
+                        "a_blood_activecases",
+                        "a_blood_ttldeaths",
+                        "a_blood_ttlnewcases",
+                        "a_blood_ttlrecovered",
+                        "a_blood_ttlcritical",
+                        "a_blood_ttlresurgent",
+                        "b_blood_activecases",
+                        "b_blood_ttldeaths",
+                        "b_blood_ttlnewcases",
+                        "b_blood_ttlrecovered",
+                        "b_blood_ttlcritical",
+                        "b_blood_ttlresurgent",
+                        "ab_blood_activecases",
+                        "ab_blood_ttldeaths",
+                        "ab_blood_ttlnewcases",
+                        "ab_blood_ttlrecovered",
+                        "ab_blood_ttlcritical",
+                        "ab_blood_ttlresurgent"
+                      ]
+                    },
+                    "80-89yrs": {
+                      "type": "object",
+                      "properties": {
+                        "male_activecases": {
+                          "type": "null"
+                        },
+                        "male_ttldeaths": {
+                          "type": "null"
+                        },
+                        "male_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "male_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "male_ttlcritical": {
+                          "type": "null"
+                        },
+                        "male_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "female_activecases": {
+                          "type": "null"
+                        },
+                        "female_ttldeaths": {
+                          "type": "null"
+                        },
+                        "female_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "female_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "female_ttlcritical": {
+                          "type": "null"
+                        },
+                        "female_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "other_activecases": {
+                          "type": "null"
+                        },
+                        "other_ttldeaths": {
+                          "type": "null"
+                        },
+                        "other_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "other_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "other_ttlcritical": {
+                          "type": "null"
+                        },
+                        "other_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "o_blood_activecases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "a_blood_activecases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "b_blood_activecases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "ab_blood_activecases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlresurgent": {
+                          "type": "null"
+                        }
+                      },
+                      "required": [
+                        "male_activecases",
+                        "male_ttldeaths",
+                        "male_ttlnewcases",
+                        "male_ttlrecovered",
+                        "male_ttlcritical",
+                        "male_ttlresurgent",
+                        "female_activecases",
+                        "female_ttldeaths",
+                        "female_ttlnewcases",
+                        "female_ttlrecovered",
+                        "female_ttlcritical",
+                        "female_ttlresurgent",
+                        "other_activecases",
+                        "other_ttldeaths",
+                        "other_ttlnewcases",
+                        "other_ttlrecovered",
+                        "other_ttlcritical",
+                        "other_ttlresurgent",
+                        "o_blood_activecases",
+                        "o_blood_ttldeaths",
+                        "o_blood_ttlnewcases",
+                        "o_blood_ttlrecovered",
+                        "o_blood_ttlcritical",
+                        "o_blood_ttlresurgent",
+                        "a_blood_activecases",
+                        "a_blood_ttldeaths",
+                        "a_blood_ttlnewcases",
+                        "a_blood_ttlrecovered",
+                        "a_blood_ttlcritical",
+                        "a_blood_ttlresurgent",
+                        "b_blood_activecases",
+                        "b_blood_ttldeaths",
+                        "b_blood_ttlnewcases",
+                        "b_blood_ttlrecovered",
+                        "b_blood_ttlcritical",
+                        "b_blood_ttlresurgent",
+                        "ab_blood_activecases",
+                        "ab_blood_ttldeaths",
+                        "ab_blood_ttlnewcases",
+                        "ab_blood_ttlrecovered",
+                        "ab_blood_ttlcritical",
+                        "ab_blood_ttlresurgent"
+                      ]
+                    },
+                    "90-99yrs": {
+                      "type": "object",
+                      "properties": {
+                        "male_activecases": {
+                          "type": "null"
+                        },
+                        "male_ttldeaths": {
+                          "type": "null"
+                        },
+                        "male_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "male_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "male_ttlcritical": {
+                          "type": "null"
+                        },
+                        "male_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "female_activecases": {
+                          "type": "null"
+                        },
+                        "female_ttldeaths": {
+                          "type": "null"
+                        },
+                        "female_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "female_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "female_ttlcritical": {
+                          "type": "null"
+                        },
+                        "female_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "other_activecases": {
+                          "type": "null"
+                        },
+                        "other_ttldeaths": {
+                          "type": "null"
+                        },
+                        "other_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "other_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "other_ttlcritical": {
+                          "type": "null"
+                        },
+                        "other_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "o_blood_activecases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "a_blood_activecases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "b_blood_activecases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "ab_blood_activecases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlresurgent": {
+                          "type": "null"
+                        }
+                      },
+                      "required": [
+                        "male_activecases",
+                        "male_ttldeaths",
+                        "male_ttlnewcases",
+                        "male_ttlrecovered",
+                        "male_ttlcritical",
+                        "male_ttlresurgent",
+                        "female_activecases",
+                        "female_ttldeaths",
+                        "female_ttlnewcases",
+                        "female_ttlrecovered",
+                        "female_ttlcritical",
+                        "female_ttlresurgent",
+                        "other_activecases",
+                        "other_ttldeaths",
+                        "other_ttlnewcases",
+                        "other_ttlrecovered",
+                        "other_ttlcritical",
+                        "other_ttlresurgent",
+                        "o_blood_activecases",
+                        "o_blood_ttldeaths",
+                        "o_blood_ttlnewcases",
+                        "o_blood_ttlrecovered",
+                        "o_blood_ttlcritical",
+                        "o_blood_ttlresurgent",
+                        "a_blood_activecases",
+                        "a_blood_ttldeaths",
+                        "a_blood_ttlnewcases",
+                        "a_blood_ttlrecovered",
+                        "a_blood_ttlcritical",
+                        "a_blood_ttlresurgent",
+                        "b_blood_activecases",
+                        "b_blood_ttldeaths",
+                        "b_blood_ttlnewcases",
+                        "b_blood_ttlrecovered",
+                        "b_blood_ttlcritical",
+                        "b_blood_ttlresurgent",
+                        "ab_blood_activecases",
+                        "ab_blood_ttldeaths",
+                        "ab_blood_ttlnewcases",
+                        "ab_blood_ttlrecovered",
+                        "ab_blood_ttlcritical",
+                        "ab_blood_ttlresurgent"
+                      ]
+                    },
+                    "beyond99yrs": {
+                      "type": "object",
+                      "properties": {
+                        "male_activecases": {
+                          "type": "null"
+                        },
+                        "male_ttldeaths": {
+                          "type": "null"
+                        },
+                        "male_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "male_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "male_ttlcritical": {
+                          "type": "null"
+                        },
+                        "male_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "female_activecases": {
+                          "type": "null"
+                        },
+                        "female_ttldeaths": {
+                          "type": "null"
+                        },
+                        "female_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "female_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "female_ttlcritical": {
+                          "type": "null"
+                        },
+                        "female_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "other_activecases": {
+                          "type": "null"
+                        },
+                        "other_ttldeaths": {
+                          "type": "null"
+                        },
+                        "other_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "other_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "other_ttlcritical": {
+                          "type": "null"
+                        },
+                        "other_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "o_blood_activecases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "o_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "a_blood_activecases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "a_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "b_blood_activecases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "b_blood_ttlresurgent": {
+                          "type": "null"
+                        },
+                        "ab_blood_activecases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttldeaths": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlnewcases": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlrecovered": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlcritical": {
+                          "type": "null"
+                        },
+                        "ab_blood_ttlresurgent": {
+                          "type": "null"
+                        }
+                      },
+                      "required": [
+                        "male_activecases",
+                        "male_ttldeaths",
+                        "male_ttlnewcases",
+                        "male_ttlrecovered",
+                        "male_ttlcritical",
+                        "male_ttlresurgent",
+                        "female_activecases",
+                        "female_ttldeaths",
+                        "female_ttlnewcases",
+                        "female_ttlrecovered",
+                        "female_ttlcritical",
+                        "female_ttlresurgent",
+                        "other_activecases",
+                        "other_ttldeaths",
+                        "other_ttlnewcases",
+                        "other_ttlrecovered",
+                        "other_ttlcritical",
+                        "other_ttlresurgent",
+                        "o_blood_activecases",
+                        "o_blood_ttldeaths",
+                        "o_blood_ttlnewcases",
+                        "o_blood_ttlrecovered",
+                        "o_blood_ttlcritical",
+                        "o_blood_ttlresurgent",
+                        "a_blood_activecases",
+                        "a_blood_ttldeaths",
+                        "a_blood_ttlnewcases",
+                        "a_blood_ttlrecovered",
+                        "a_blood_ttlcritical",
+                        "a_blood_ttlresurgent",
+                        "b_blood_activecases",
+                        "b_blood_ttldeaths",
+                        "b_blood_ttlnewcases",
+                        "b_blood_ttlrecovered",
+                        "b_blood_ttlcritical",
+                        "b_blood_ttlresurgent",
+                        "ab_blood_activecases",
+                        "ab_blood_ttldeaths",
+                        "ab_blood_ttlnewcases",
+                        "ab_blood_ttlrecovered",
+                        "ab_blood_ttlcritical",
+                        "ab_blood_ttlresurgent"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "0-9yrs",
+                    "10-19yrs",
+                    "20-29yrs",
+                    "30-39yrs",
+                    "40-49yrs",
+                    "50-59yrs",
+                    "60-69yrs",
+                    "70-79yrs",
+                    "80-89yrs",
+                    "90-99yrs",
+                    "beyond99yrs"
+                  ]
+                }
+              },
+              "required": [
+                "timestamp",
+                "diseasename",
+                "diseasetype",
+                "infectiondata"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "county_guid",
+        "medicalfacility_guid",
+        "datetime"
+      ]
+    }
+  ]
+}
